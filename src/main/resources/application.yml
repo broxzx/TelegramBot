@@ -1,0 +1,15 @@
+telegram:
+  secretToken: 6738500532:AAEq0PlENFo9AygTpbOtN12HqYZXnUSqlKM
+  username: CircusTicketManagementbot
+  operatorChatId: someChatId
+
+spring:
+  datasource:
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/CircusEventManagement
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
